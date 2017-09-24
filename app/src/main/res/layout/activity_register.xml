@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#efefef"
+    tools:context="com.example.hx.day1.RegisterActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100px"
+        android:src="@drawable/em_welcom_logo" />
+    <EditText
+        android:id="@+id/register_name"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginTop="200px"
+        android:background="#fff"
+        android:drawableRight="@drawable/em_icon_account"
+        android:hint="输入账号" />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginTop="20px"
+        android:background="#fff"
+        android:drawableRight="@drawable/em_icon_pwd"
+        android:hint="输入密码" />
+    <Button
+        android:id="@+id/register_zc"
+        android:text="注册"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginTop="40px"
+        android:background="#46c0e9"
+        android:drawableRight="@drawable/em_icon_pwd" />
+</LinearLayout>
